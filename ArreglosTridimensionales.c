@@ -28,6 +28,16 @@ int main() {
         }
     }
     
+    // Imprimir todos los elementos del arreglo
+    for (int i = 0; i < x; i++) {
+        for (int j = 0; j < y; j++) {
+            for (int k = 0; k < z; k++) {
+                printf("%d ", arreglo[i][j][k]);
+            }
+            printf("\n");
+        }
+        printf("\n");
+    }
     
     return 0;
 }
